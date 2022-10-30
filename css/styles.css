@@ -42,10 +42,6 @@ body {
 
 }
 
-/* .header {
-width: 100%;
-} */
-
 .header-nav {
     position: relative;
     display: flex;
@@ -94,7 +90,8 @@ width: 100%;
 }
 
 .nav-list-item {
- padding-top: 40px;   
+ padding-top: 40px;
+
 }
 
 .nav-list-item a {
@@ -103,8 +100,30 @@ margin-left: 30px;
 font-family: 'Grisp';
 font-weight: 500;
 font-size: 20px;
+transition: font-size 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-list-item:hover a {
+font-size: 30px;
+}
+
+.list {
+opacity: 0;
+transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.list-item {
+    margin-top: 10px;
+ 
+}
+
+.list-item a {
+font-size: 18px;
+}
+
+.nav-list-item:hover .list {
+    opacity: 1;
+}
 .bio {
 
 background-image: linear-gradient(var(--primery-color),
@@ -118,11 +137,8 @@ margin-top: 50px;
 
 }
 
-/* .discription-bio {
-    width: 40%;
-  
-  margin-left: 150px;
-  
+.discription-bio {
+ margin-top: 50px;
 }
 
 .discription-bio-title {
@@ -135,13 +151,28 @@ padding-bottom: 20px;
 }
 
 .discription-bio-text {
+    display: block;
+        padding-right: 70px;
+        padding-left: 70px;
+        padding-bottom: 50px;
     color: var(--primery-tex-color);
     font-family: 'Grisp';
     font-weight: 500;
-    font-size: 18px;
-    text-align:justify;
-    
-} */
+    font-size: 30px;
+    text-align:justify;   
+}
+
+.discription-bio-text-ab {
+    display: block;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 80px;
+    color: var(--primery-tex-color);
+    font-family: 'Grisp';
+    font-weight: 500;
+    font-size: 30px;
+    text-align: justify;
+}
 
 .v-p-img {
 margin-top: 50px;
@@ -151,8 +182,21 @@ margin-right: auto;
     height: 1000px;
 }
 
-.section {
-    background-image: linear-gradient( var(--color-sectio),
-     var(--primery-color));
+
+.footer {
+    border-top: solid var(--primery-tex-color);
+    padding-top: 10px;
+    background-image: linear-gradient(var(--color-sectio), 
+    var(--primery-color));
 }
+
+.footer-text {
+    padding: 20px;
+color: var(--primery-tex-color);
+font-family: 'Grisp';
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
 
