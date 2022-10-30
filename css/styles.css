@@ -1,0 +1,158 @@
+:root {
+    --primery-color: #08289c;
+    --primery-tex-color: #FFFFFF;
+    --color-sectio: #1b72bc;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: var(--primery-color);
+
+}
+
+/* .header {
+width: 100%;
+} */
+
+.header-nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    
+    font-family: 'Ms Madi';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primery-tex-color);
+}
+
+.logo-p {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    padding-top: 20px;
+}
+
+.logo-v {
+    position: absolute;
+    left: 150px;
+    bottom: -40px;
+    padding-top: 20px;
+}
+
+.logo-v::after {
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    display: block;
+    content: '';
+    width: 5px;
+    height: 70px;
+    background-color: var(--primery-tex-color);
+    border-radius: 20px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list-item {
+ padding-top: 40px;   
+}
+
+.nav-list-item a {
+color: var(--primery-tex-color);
+margin-left: 30px;
+font-family: 'Grisp';
+font-weight: 500;
+font-size: 20px;
+}
+
+.bio {
+
+background-image: linear-gradient(var(--primery-color),
+ var(--color-sectio));
+}
+
+.discription {
+display: flex;
+margin-top: 50px;
+margin-left: auto; 
+margin-right: auto;
+
+}
+
+.discription-bio {
+    width: 500px; 
+  margin-left: 150px;
+  
+}
+
+.discription-bio-title {
+color: var(--primery-tex-color);
+padding-bottom: 20px;
+    font-family: 'Grisp';
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.discription-bio-text {
+    color: var(--primery-tex-color);
+    font-family: 'Grisp';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.v-p-img {
+margin-top: 50px;
+/* margin-left: 40px; */
+margin-right: 500px;
+margin-left: 0;
+    width: 350px;
+    height: 530px;
+}
+
+.section {
+    background-image: linear-gradient( var(--color-sectio),
+     var(--primery-color));
+}
+

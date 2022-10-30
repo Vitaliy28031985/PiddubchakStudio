@@ -2,47 +2,70 @@
 <html lang="ua"
 <head>
     <meta charset="UTF-8">
-    <title>PiddubchakStudio</title>
+    <title>Vitaliy Piddubchak</title>
+<!-- шрифти -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- стилі -->
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
-<header>
+<header class="header">
     <nav>
-    <img src="./jmpg/PS.jpg" width="100" alt="логотип">
-    <ul>
-        <li><a href="">Замовити послугу</a></li>
-        <li><a href="">Контакти</a></li>
-        <li><a href="">Прайс</a></li>
+   <div class="header-nav">
+   <a class="logo">
+   <span class="logo-v"><p>V</p></span> 
+   <span class="logo-p"><p>P</p></span>
+   </a>
+    <ul class="nav-list">
+        <li class="nav-list-item"><a href="">Головна</a></li>
+        <li class="nav-list-item"><a href="">Пісні</a></li>
+        <li class="nav-list-item"><a href="">Фото галерея</a></li>
+        <li class="nav-list-item"><a href="">Відео галерея</a></li>
+        <li class="nav-list-item"><a href="">Контакти</a></li>
     </ul>
+</div>
 </nav>
 </header>
-<section>
-    <h1>Про нас</h1>
-    <p>Piddubchak Studio прогресивна студія звукозапису заснована співаком та композитором Віталієм Піддубчаком. Нашою метою є сприяння молодим виконавцям які хочуть випускати якісний музичний продукт</p>
+<section class="bio">
+    <div class="discription">
+        <div class="discription-bio">
+            <h2 class="discription-bio-title">Біографія</h2>
+            <p class="discription-bio-text">Віталій Піддубчак – Християнський співак та композитор. Народився в місті Львові.
+            Свій творчий шлях розпочав в Львівському молодіжному хорі під керівництвом Галини Самусь. В 2001 році пробує свої сили в
+            християнському вокально-інструмунтальному гурті “СІОН”. В жовтні 2001 року разом з Володимиром Грунтовським започатковує
+            християнський гурт “СКАЛА СПАСІННЯ” який існує до вересня 2005 року. Так, за час існування гурту Віталій пише пісні які
+            на сьогоднішній день входят в його репертуар. Таким чином, з`являються пісні: “Наше життя”, “Я дякую Тобі мій Бог”,
+            “Недостойні”, “Найкраща” та інші.
+            В 2005 році Володимир Грунтовський виїзджає на постійне проживання в США і гурт “Скла спасіння” припиняє своє існування.
+            Протягом 2005 – 2007 років Віталій Піддубчак співає двічі на фестивалі християнського мистецтва «ВЕСНЯНА ПОВІНЬ»,
+            служить співом в різних церквах.
+            В 2007 році Віталій знайомиться з співачкою Софією Степанюк і в його творчості розпочинається новий період. В дуеті з
+            Софією Степанюк Віталій Піддубчак служить в багатьох церквах, співає на районних та обласних з’їздах молоді, весіллях.
+            Згаданий вище дует існував до 2013 року.
+            На сьогоднішній день Віталій виступає в основному як сольний співак. Є постійним учасником різноманітних концертів, а
+            також служить співом в церквах області.
+</p>
+</div>
+
+    <img class="v-p-img" src="./images/Vitaliy-Piddubchak.png" alt="Vitaliy Piddubchak">   
+    
 </section>
-<section>
-    <h2>Наші послуги</h2>
-    <ul>
-        <li>Запис пісні</li>
-        <li>Аранжквання</li>
-        <li>Зведення готового матеріалу</li>
-    </ul>
+<section class="section">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellendus architecto distinctio eaque eius tenetur, dolores voluptatibus unde dolorum, nisi velit laborum rerum voluptas amet labore, culpa mollitia! Sunt, quis!</p>
 </section>
-<h2>Приклади робіт</h2>
-<ul>
-<li><p>Ти мене кохаєш</p><audio src="./audio/tu mene koheshmp3.mp3" controls loop preload="auto"></audio></li>
-<li><p>В Христе одном</p><audio src="./audio/v criste odnom.wav" controls loop preload="auto"></audio></li>
-<li><p>Ти мої вітрила</p><audio src="./audio/tu moi vitrula.mp3" controls loop preload="auto"></audio></li>
-<li><p>Кохана</p><audio src="./audio/kohana.mp3" controls loop preload="auto"></audio></li>
-<li><button>Більше варіантів</button></li>
-</ul>
-</section>
-<footer>
-    <a href=""><img src="./jmpg/PS.jpg" width="100" alt="логотип"></a>
-    <address>
-        м. Жовква, вул. Й. Сліпого буд. 51, кв. 9<br>
-        <a href="mailto:piddubchakstudio@gmail.com">piddubchakstudio@gmail.com</a><br>
-        <a href="tel:+380971428868">+38 097 142 88 68</a>
-    </address>
-</footer>
+</div>
 </body>
 </html>
