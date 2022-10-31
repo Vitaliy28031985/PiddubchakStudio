@@ -49,14 +49,13 @@ body {
     align-items: center;
 }
 .logo {
-    /* position: fixed; */
-    /* bottom: 200px; */
     display: flex;
     font-family: 'Ms Madi';
     font-size: 40px;
     font-weight: 700;
     color: var(--primery-tex-color);
 }
+
 
 .logo-p {
     
@@ -249,3 +248,52 @@ font-family: 'Grisp';
 }
 
 
+.address-box__Location {
+color: var(--primery-tex-color);
+    font-family: 'Grisp';
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.address-box__Location a {
+    display: inline-block;
+color: var(--primery-tex-color);
+font-weight: 500;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.maps {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.social {
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ padding-bottom: 80px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.social a {
+color: var(--primery-tex-color);
+
+}
+
+.social li {
+    margin-left: 20px;
+}
+
+.social-item a {
+transition: font-size 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-item:hover a {
+    font-size: 50px;
+}
